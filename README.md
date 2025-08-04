@@ -54,7 +54,7 @@ The app stores your filament rolls in `filament_data.json` like this:
 
 ## 🔗 Links
 
-- [View Project on GitHub]([https://github.com/EpicCat69/Filament-Manager])
+- [View Project on GitHub](https://github.com/EpicCat69/Filament-Manager)
 
 ---
 

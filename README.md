@@ -24,3 +24,44 @@ A simple desktop app to manage 3D printer filament rolls. Track color, material,
 ### 2. Run the App
 ```bash
 python filament_manager.py
+```
+
+### 3. Optional: Create Executable (Windows)
+```bash
+python -m pip install pyinstaller
+python -m PyInstaller --onefile --windowed filament_manager.py
+```
+Your `.exe` will be in the `dist/` folder.
+
+---
+
+## 📂 Data Format
+
+The app stores your filament rolls in `filament_data.json` like this:
+
+```json
+[
+  {
+    "color": "Red",
+    "material": "PLA",
+    "remaining_grams": 850,
+    "description": "Silk glossy finish"
+  }
+]
+```
+
+---
+
+## 🔗 Links
+
+- [View Project on GitHub]([https://github.com/EpicCat69/Filament-Manager])
+
+---
+
+## 📃 License
+
+MIT License — free to use and modify.
+
+---
+
+Made with 💻 and 3D printing love by **SOEP**

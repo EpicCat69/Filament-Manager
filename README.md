@@ -46,7 +46,9 @@ The app stores your filament rolls in `filament_data.json` like this:
     "color": "Red",
     "material": "PLA",
     "remaining_grams": 850,
-    "description": "Silk glossy finish"
+    "description": "Silk glossy finish",
+    "initial_price": 22.95,
+    "used_grams": 150.0
   }
 ]
 ```

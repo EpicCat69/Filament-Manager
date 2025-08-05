@@ -7,10 +7,11 @@ A simple desktop app to manage 3D printer filament rolls. Track color, material,
 ## ✨ Features
 
 - 📋 View all filament rolls in a clean table
-- ➕ Add new rolls with color, material, grams left, and description
+- ➕ Add new rolls with color, material, grams left, description, and price
 - 🗑️ Remove rolls when empty or unused
 - 🎯 Log filament usage (grams) after each print
 - 💾 Data is saved locally in `filament_data.json`
+- 📃 Saves Stats like gram used, money spent, and rolls used
 - 🪟 Built with Python & Tkinter — no internet needed
 
 ---
